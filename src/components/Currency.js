@@ -17,10 +17,10 @@ const Currency = () => {
             <span>
                 Currency {
                 <select name="Currency" id="Currency" onChange={event=>changeCurrency(event.target.value)}>
-                <option value="£">(£ Pound)</option>
-                <option value="₹">(₹ Ruppee)</option>
-                <option value="€">(€ Euro)</option>
-                <option value="$">($ Dollar)</option>
+                <option value="£">£ Pound</option>
+                <option value="₹">₹ Ruppee</option>
+                <option value="€">€ Euro</option>
+                <option value="$">$ Dollar</option>
                 </select>	
                 }
             </span>
